@@ -7,7 +7,7 @@ public class Thingworx {
     public Thingworx(String thing){
         this.thing = thing;
     }
-    public static void createThing(String name, String description, String thingTemplateName){
+    public void createThing(String name, String description, String thingTemplateName){
         JSONObject obj = new JSONObject();
         obj.put("name", name);
         obj.put("description", description);
